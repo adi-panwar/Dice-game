@@ -12,20 +12,29 @@
     <title>dice-game</title>
   </head>
   <body class="font-[Poppins]">
+    
     <div
       id="container"
       class="p-8 bg-gradient-to-r from-gray-900 to-black min-h-screen flex flex-col items-center justify-center transition-all duration-500"
     >
-      <h1 class="text-white text-2xl font-bold mb-4 tracking-wide"></h1>
+    <img src="./logo.png" class="fixed top-[-80px] left-[30px] md:left-[-30px] h-64 " alt="">
+    <video src="./E-skils add.mp4" class="w-full mb-10  md:h-64  rounded-lg  " muted loop autoplay ></video>
+      <h1 class="text-white text-2xl font-bold mb-4 tracking-wide">Play The Dice Roullete</h1>
       <div
-        class="p-6 bg-white/10 backdrop-blur-lg border border-white/20 shadow-2xl rounded-2xl w-72 text-center"
+        class="p-6 bg-white/10 backdrop-blur-lg border border-white/20 shadow-2xl rounded-2xl text-center "
       >
-        <div class="p-4 flex items-center justify-between text-8xl">
-          <div class="dice-One">
+        <div class="p-4 flex items-center justify-around gap-3 flex-wrap text-8xl">
+          <div class="dice-One  ">
             <i id="dice-One" class="fa-solid fa-dice-one"></i>
           </div>
-          <div class="dice-Two">
-            <i id="dice-Two" class="fa-solid fa-dice-three"></i>
+          <div class="dice-Two ">
+            <i id="dice-Two" class="fa-solid fa-dice-two"></i>
+          </div>
+          <div class="dice-Three">
+            <i id="dice-Three" class="fa-solid fa-dice-three"></i>
+          </div>
+          <div class="dice-four">
+            <i id="dice-four" class="fa-solid fa-dice-four"></i>
           </div>
         </div>
         <button
