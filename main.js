@@ -7,7 +7,7 @@ const container = document.getElementById("container")
 const H1 = document.querySelector("h1")
 
 
-const diceIcons = ["", "fa-solid fa-dice-one", "fa-solid fa-dice-two", "fa-solid fa-dice-three", "fa-solid fa-dice-four", "fa-solid fa-dice-five", "fa-solid fa-dice-six"]
+const diceIcons = ["", "fa-solid fa-dice-one text-orange-300", "fa-solid fa-dice-two text-amber-400", "fa-solid fa-dice-three text-yellow-400", "fa-solid fa-dice-four text-lime-500", "fa-solid fa-dice-five text-green-800", "fa-solid fa-dice-six text-emerald-600"]
 
 
 
