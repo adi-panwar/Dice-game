@@ -44,23 +44,23 @@ const rolldice = () => {
         container.className = "p-8 bg-gradient-to-r from-green-500 to-green-400 min-h-screen flex flex-col  items-center justify-center transition-all duration-500"
         Button.innerText = "Play again"
         if (sum === 4) {
-            H1.innerHTML = "🎉 <span class='text-3xl font-extrabold'>Congratulations!</span><br/>You won an iPhone 📱"
+            H1.innerHTML = "🎉 <span class='text-3xl font-extrabold'>Good!</span>You won an iPhone 📱"
 
         }
         else if (sum === 8) {
-            H1.innerHTML = "🏍️ <span class='text-3xl font-extrabold'>Awesome!</span><br/>You won a Bike "
+            H1.innerHTML = "🏍️ <span class='text-3xl font-extrabold'>Wow!</span>You won a Bike "
         }
         else if (sum === 16) {
-            H1.innerHTML = "🚗 <span class='text-3xl font-extrabold'>Jackpot!</span><br/>You won a Car"
+            H1.innerHTML = "🚗 <span class='text-3xl font-extrabold'>Yeee!</span>You won a Car"
         }
     }
     else if (sum === 5 || sum === 7 || sum === 13) {
-        H1.innerHTML = "😞Chee ! <br> <span class='text-2xl font-semibold'>You Lost</span>"
+        H1.innerHTML = "😞Chee !  <span class='text-2xl font-semibold'>You Lost</span>"
         Button.innerText = "Play again"
         container.className = "p-8 bg-gradient-to-r from-red-500 to-red-400 min-h-screen flex flex-col  items-center justify-center transition-all duration-500"
     }
     else if (sum === 12) {
-        H1.innerHTML = "😍 <span class='text-3xl font-extrabold'>Heaven Ticket Confirm!"
+        H1.innerHTML = "😍 <span class='text-3xl font-extrabold'>Moon trip"
         Button.innerText = "Play again"
         container.className = "p-8 bg-gradient-to-r from-blue-500 to-blue-400 min-h-screen flex flex-col  items-center justify-center transition-all duration-500"
     }
